@@ -22,3 +22,13 @@
     padding-top: 11px;
     color: green;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar-collapse {
+        z-index: 1;
+        position: absolute;
+        background: #2F006F;
+        width: 100%;
+        margin: 0;
+    }
+}
