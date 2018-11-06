@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/toilo.github.io/temp-asset/precache-manifest.1467042a75e0c577023c298ddc5802cd.js"
+  "/toilo.github.io/temp-asset/precache-manifest.b792ba9d587b967a38de98fcfd3fedcb.js"
 );
 
 workbox.clientsClaim();
