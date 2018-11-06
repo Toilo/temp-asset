@@ -12,6 +12,8 @@ import './App.css';
 
 class App extends Component {
   render() {
+    console.log(windows.location);
+    
     return (
       <div className="App">
         <Switch>
