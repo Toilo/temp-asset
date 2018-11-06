@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/toilo.github.io/temp-asset/precache-manifest.b792ba9d587b967a38de98fcfd3fedcb.js"
+  "/temp-asset/precache-manifest.00a389b70046adf949371a5653262c0b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/toilo.github.io/temp-asset/index.html", {
+workbox.routing.registerNavigationRoute("/temp-asset/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
