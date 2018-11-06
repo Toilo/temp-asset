@@ -7,9 +7,9 @@ import "font-awesome/css/font-awesome.css";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <App />
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
