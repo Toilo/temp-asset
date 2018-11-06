@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/temp-asset/static/media/asset_logo.70ff030d.png"
   },
   {
-    "revision": "76ba88659642605e1987",
+    "revision": "376114b54b87cd506bb6",
     "url": "/temp-asset/static/css/main.56a5af9d.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/temp-asset/static/media/vine_camp6.a4ffa099.jpg"
   },
   {
-    "revision": "76ba88659642605e1987",
-    "url": "/temp-asset/static/js/main.76ba8865.chunk.js"
+    "revision": "376114b54b87cd506bb6",
+    "url": "/temp-asset/static/js/main.376114b5.chunk.js"
   },
   {
     "revision": "89956b943a1cdac878e2e119cbb9da18",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/temp-asset/static/css/1.a53cbe91.chunk.css"
   },
   {
-    "revision": "0f27b80a1f34e42b1078f2a11b5ea0d8",
+    "revision": "4c30d5b8b1ffdf0bdce999012bf0fe46",
     "url": "/temp-asset/index.html"
   }
 ];
