@@ -1,5 +1,13 @@
 .App {
   height: 100vh;
   width: 100vw;
-  background-color: #2F006F;
+  background-color: #2f006f;
+}
+
+.map {
+  height: 500px;
+  width: 500px;
+  top: 0;
+  position: sticky;
+  -webkit-text-fill-color: rgb(90, 88, 88);
 }
