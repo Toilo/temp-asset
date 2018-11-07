@@ -33,10 +33,10 @@ export default class Banner extends Component {
           <h3 className="heading">Programmes</h3>
           <p className="subtext">Our core Programmes include 
           <br />
-          <a href="" style={{color: '#6C7828', fontWeight: 'bold'}}>The Bursary Programme </a>
+          <a href="/" style={{color: '#6C7828', fontWeight: 'bold'}}>The Bursary Programme </a>
           and 
           <br />
-          <a href="" style={{color: '#6C7828', fontWeight: 'bold'}}>The Learner Development Programme</a>.</p>
+          <a href="/" style={{color: '#6C7828', fontWeight: 'bold'}}>The Learner Development Programme</a>.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

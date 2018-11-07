@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Grid, Thumbnail, Nav, NavItem } from "react-bootstrap";
+import { Row, Col, Grid, Thumbnail } from "react-bootstrap";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Visit from "./visit";

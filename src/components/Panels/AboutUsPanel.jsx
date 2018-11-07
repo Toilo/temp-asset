@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Panel, PageHeader, Image } from "react-bootstrap";
-import visionImage from "../../resources/aboutpanel.jpeg";
+import { Grid, Row, Panel, PageHeader } from "react-bootstrap";
+// import visionImage from "../../resources/aboutpanel.jpeg";
 
 import "./AboutUsPanel.css";
 

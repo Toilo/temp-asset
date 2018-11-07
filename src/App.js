@@ -7,26 +7,26 @@ import Programmes from './components/Programmes/Programmes';
 import Funding from './components/Funding/Funding';
 import Blog from './components/Blog/Blog';
 import Gallery from './components/Gallery/Gallery';
+import NotFound from './components/404/NotFound';
 
 import './App.css';
 
 class App extends Component {
   render() {
-    console.log(window.location);
-
     return (
       <div className="App">
         <Switch>
-        <Route path="/home" component={Content} />
-        <Route path="/about" component={AboutUs} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/programmes" component={Programmes} />
-        <Route path="/funding" component={Funding} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/gallery" component={Gallery} />
+        <Route path="/home" component={Content} strict/>
+        <Route path="/about" component={AboutUs} strict/>
+        <Route path="/contact" component={Contact} strict/>
+        <Route path="/programmes" component={Programmes} strict/>
+        <Route path="/funding" component={Funding} strict/>
+        <Route path="/blog" component={Blog} strict/>
+        <Route path="/gallery" component={Gallery} strict/>
+        <Route path="/404" component={NotFound} />
         
         <Redirect from="/" exact to="/home" />
-        <Redirect to="/not-found" />
+        <Redirect to="/404" />
       </Switch>
       </div>
     );

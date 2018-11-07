@@ -2,28 +2,24 @@
   "name": "asset-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://toilo.github.io/temp-asset/",
   "dependencies": {
     "@material-ui/core": "^3.3.2",
     "@material-ui/icons": "^3.0.1",
-    "bootstrap": "^4.1.3",
-    "font-awesome": "^4.6.3",
-    "gh-pages": "^2.0.1",
-    "google-map-react": "^1.0.5",
     "react": "^16.6.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "reactstrap": "^6.5.0",
-    "semantic-ui-react": "^0.83.0"
+    "semantic-ui-react": "^0.83.0",
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.6.3",
+    "google-map-react": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --save=jsdom",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

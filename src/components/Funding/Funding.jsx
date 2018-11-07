@@ -6,12 +6,8 @@ import slide2 from "../../resources/slide2.jpeg";
 import slide3 from "../../resources/slide3.jpeg";
 import {
   Row,
-  Col,
   Grid,
   Carousel,
-  Thumbnail,
-  Nav,
-  NavItem
 } from "react-bootstrap";
 
 import { PageHeader } from "react-bootstrap";
@@ -76,12 +72,12 @@ export default class Funding extends Component {
                   <p className="subtext">
                     Our core Programmes include
                     <br />
-                    <a href="" style={{ color: "#6C7828", fontWeight: "bold" }}>
+                    <a href="/" style={{ color: "#6C7828", fontWeight: "bold" }}>
                       The Bursary Programme{" "}
                     </a>
                     and
                     <br />
-                    <a href="" style={{ color: "#6C7828", fontWeight: "bold" }}>
+                    <a href="/" style={{ color: "#6C7828", fontWeight: "bold" }}>
                       The Learner Development Programme
                     </a>
                     .

@@ -8,7 +8,7 @@ import {
   Thumbnail,
   Button
 } from "react-bootstrap";
-import bursarylogo from "../../resources/bursary.jpg";
+// import bursarylogo from "../../resources/bursary.jpg";
 import learner_dev from "../../resources/vine_camp4.jpg";
 import learner_dev1 from "../../resources/vine_camp6.jpg";
 
